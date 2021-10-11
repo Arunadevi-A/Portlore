@@ -1,0 +1,351 @@
+﻿body {
+    background-color: #E8F6EF;
+}
+
+header {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-top {
+    background-color: #FFE194;
+    position: fixed;
+    display: block;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-top div {
+    display: inline-block;
+}
+
+.brand {
+    position: absolute;
+    left: 5%;
+}
+
+.search {
+    padding: 1.5rem 0 1.75rem;
+    min-width: 50%;
+    min-height: 3rem;
+    visibility: hidden;
+}
+
+.search input {
+    min-width: 65%;
+    min-height: 2.25rem;
+}
+
+.search button {
+    display:inline-block;
+    font-size: 1.25rem;
+    width: 13%;
+    height: 2.25rem;
+    border-radius: 0 20px 20px 0!important;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.user-field {
+    padding: 1.5rem 0 1.75rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 5%;
+    visibility: hidden;
+}
+
+.user-field a {
+    color: black;
+}
+.user-field a:hover {
+    text-decoration: none;
+}
+
+.user-field span {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.25rem;
+}
+
+.top-section {
+    margin-top: 9rem;
+    padding: 0 10rem 0 2rem;
+    overflow: hidden;
+}
+
+.top-section img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.col-md-2 {
+    text-align: center;
+    width: 150%;
+}
+
+.info {
+    padding: 3rem 0 0 3rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.info form {
+    width: 50%;
+}
+
+p {
+    font-family: 'Merriweather';
+}
+
+h2 {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Noto';
+}
+
+/* Rating */
+
+.wrap {
+    width: 250px;
+    height: 50px;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    position: relative;
+    left: 13rem;
+    top: -1rem;
+}
+
+.stars {
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.star {
+    color: black;
+}
+
+.rate {
+    height: 50px;
+    margin-left: -5px;
+    padding: 5px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+ .rate input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    pointer-events: none;
+}
+
+.star-over::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 16px;
+    content: "\f005";
+    display: inline-block;
+    color: transparent;
+    z-index: 1;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+
+.rate:nth-child(1) .face::after {
+    content: "☹"; 
+}
+
+.rate:nth-child(2) .face::after {
+    content: "😐"; 
+}
+
+.rate:nth-child(3) .face::after {
+    content: "😊"; 
+}
+
+.rate:nth-child(4) .face::after {
+    content: "😄"; 
+}
+
+.rate:nth-child(5) .face::after {
+    content: "😍"; 
+}
+
+.col-sm-10{
+ left: 30px;
+}
+
+.face {
+    opacity: 0;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 5px;
+    top: -50px;
+    left: 2px;
+    transition: 0.2s;
+    pointer-events: none;
+}
+
+.face::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f0dd";
+    display: inline-block;
+    color: transparent;
+    z-index: 1;
+    position: absolute;
+    left: 9px;
+    bottom: -15px;
+}
+
+.face::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: inline-block;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    left: 5px;
+    top: -1px;
+
+}
+
+.rate:hover .face {
+    opacity: 1;
+}
+
+/* Reviews */
+
+.container-fluid {
+    background-image: linear-gradient(to right, #7B1FA2, #E91E63)
+}
+
+.sm-text {
+    font-size: 10px;
+    letter-spacing: 1px
+}
+
+.sm-text-1 {
+    font-size: 14px
+}
+
+.green-tab {
+    background-color: #00C853;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 3px 5px 3px
+}
+
+.btn-red {
+    background-color: #E64A19;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none
+}
+
+    .btn-red:hover {
+        background-color: #BF360C
+    }
+
+    .btn-red:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline-width: 0
+    }
+
+.round-icon {
+    font-size: 40px;
+    padding-bottom: 10px
+}
+
+.fa-circle {
+    font-size: 10px;
+    color: #EEEEEF
+}
+
+.green-dot {
+    color: #4CAF50
+}
+
+.red-dot {
+    color: #E64A19
+}
+
+.yellow-dot {
+    color: #FFD54F
+}
+
+.grey-text {
+    color: #BDBDBD
+}
+
+.green-text {
+    color: #4CAF50
+}
+
+.block {
+    border-right: 1px solid #F5EEEE;
+    border-top: 1px solid #F5EEEE;
+    border-bottom: 1px solid #F5EEEE
+}
+
+.profile-pic img {
+    border-radius: 50%
+}
+
+.rating-dot {
+    letter-spacing: 5px
+}
+
+.via {
+    border-radius: 20px;
+    height: 28px;
+}
+
+.review-section {
+    padding-left: 5rem;
+    width: 50%;
+}
+
+.review-section .review {
+    padding: 0 0 48px 0!important;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+.rate-us {
+    margin: 3rem 0 0 3rem;
+    width: 50%;
+}
+
+.rate-us * {
+    margin-bottom: 0;
+}
+
+.rate-us form {
+    margin-top: -2rem;
+}
+
+h3 {
+    margin: 2.5rem 0;
+    font-family: 'Merriweather';
+}
+
+h2 {
+    margin-top: 2rem;
+}
