@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>sign-in</title>
-            <link rel="stylesheet" href="signin.css">
+<title>sign-up</title>
+<link rel="stylesheet" href="signin.css">
            
 </head>
 <body >
- <form method="POST" action="signin.php">
+ <form method="post" action="signup.php">
  <img class="img_1" src="logo.png" alt="Logo"/>
  <div class="signin">
-  <h2>&nbsp Sign in</h2>
+  <h2>&nbsp Sign up</h2>
+    <form action="/action_page.php" method="post" autocomplete="on">
+     <label id="uname"><b>&nbsp &nbsp Username</b></label>
+     <input type="text" placeholder="Enter username " name="uname" required>
      <label id="mail"><b>&nbsp &nbsp Email</b></label>
      <input type="text" placeholder="Enter email " name="mail" required>
      <label id="psw"><b>&nbsp &nbsp Password</b></label>
      <input type="password" placeholder="Enter Password" name="psw" required>  
-     <div class="pass" style="background-color:#f1f1f1">
-      <span class="psw">&nbsp &nbsp Forgot <a href="#">password?</a></span>
-    </div>
-     <button type="continue">continue</button>
-  <p>&nbsp &nbsp &nbsp Don't have an account?<a href="signup.html">&nbspSignup now</a></p>
+     <button type="submit">submit</button>
+     
+  <p>&nbsp &nbsp &nbsp Already have an account?<a href="signin.html">&nbspSignin</a></p>
+    </form>
     </div>
    
 <script>
@@ -28,4 +30,3 @@
 
 </body>
 </html>
-
