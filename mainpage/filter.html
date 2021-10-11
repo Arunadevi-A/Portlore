@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>PortLore | Filter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="filter.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="nav-top">
+
+            <div class="brand">
+                <a href=""><img src="logo.png" alt="brand-logo" /></a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search" name="querry" />
+                <button class="btn btn-warning my-auto">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="user-field">
+                <a href="">
+                    <i class="far fa-user"></i>
+                    <span>Sign in</span>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+
+        <h3>Filter by</h3>
+        <div class="position-sticky">
+            <div class="list-group list-group-flush mx-3 mt-4">
+                <button class="list-group-item list-group-item-action py-2 ripple btn btn-primary filter-button" type="button" data-filter="all">All</button>
+                <button class="list-group-item list-group-item-action py-2 ripple btn btn-default filter-button" type="button" data-filter="location">Location</button>
+                <button class="list-group-item list-group-item-action py-2 ripple btn btn-default filter-button" type="button" data-filter="certified">Certified</button>
+                <button class="list-group-item list-group-item-action py-2 ripple btn btn-default filter-button" type="button" data-filter="ship-mode">Ship Mode</button>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="top-section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-5 filter location">
+                    <div class="each-item">
+                        <img class="port-image" src="https://www.sarvamlogistics.com/images/home-banner4.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 filter location company-info">
+                    <h3><a href="about.html">SARVAM Logistics </a> </h3>
+                    <p>India Pvt Ltd.,Freight forwarding</p>
+                    <p>
+                        <a href="https://www.google.com/maps?ll=11.005099,76.975386&z=16&t=m&hl=en-US&gl=IN&mapclient=embed&cid=2850604915877336338"><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Coimbatore,Tamil Nadu
+                    </p>
+                     </p>
+                    <p>Rating: 4.5<i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star-half" style="color:orange"></i></p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter certified location">
+                    <div class="each-item">
+                        <img class="port-image" src="http://www.pratikgroup.co.in/assets/images/about-us-img-1.png" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter certified location ">
+                    <div class="verified"><i class="fas fa-check-circle"></i>Verified</div>
+                    <h3><a href="about.html">Royal Exports & Imports</a></h3>
+                    <p>Shipping comapny</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Madurai,tamil Nadu
+                    </p>
+                    <p>Ratings: 4<i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star "></i></p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter ship-mode">
+                    <div class="each-item">
+                        <img class="port-image" src="http://aremlogistics.com/data/uploads/banner-2.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter ship-mode ">
+                    <h3><a href="about.html">AREM LOGISTICS</a></h3>
+                    <p>Freight Forwarding</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        New Siddhapudur, Tamil Nadu
+                    </p>
+                    <p>Ratings: 4.5<i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star-half" style="color:orange"></i></p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter certified location ship-mode">
+                    <div class="each-item">
+                        <img class="port-image" src="http://www.multilinklogistics.com/img/icon/logo_1.png" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter certified location ship-mode"> 
+                    <div class="verified"><i class="fas fa-check-circle"></i>Verified</div>
+                    <h3><a href="about.html">Multilink Logistics </a></h3>
+                    <p>Logistics service,India Pvt Ltd</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Tirupur,Tamil Nadu
+                    </p>
+                    <p>Ratings: 4.5<i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star-half" style="color:orange"></i></p>
+                    
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter ship-mode certified">
+                    <div class="each-item">
+                        <img class="port-image" src="http://seagulllogistic.com/images/seagulll5.gif" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter ship-mode certified">
+                    <div class="verified"><i class="fas fa-check-circle"></i>Verified</div>
+                    <h3><a href="about.html">SEAGULL LOGISTICS</a></h3>
+                    <p>Logistics service</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Tiruppur,Tamil nadu
+                    </p>
+                    <p>Ratings: 4.5<i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star-half" style="color:orange"></i></p>
+                </div>
+
+            </div>
+             
+            <div class="row">
+
+                <div class="col-md-5 filter location">
+                    <div class="each-item">
+                        <img class="port-image" src="https://www.ship-technology.com/wp-content/uploads/sites/16/2020/03/shutterstock_784765822.jpg" />
+                        <!--
+                        <div class="cap1">
+                            <h3>Brooks export</h3>
+                            <p>Import Export company</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Viralimalai,Tamil nadu</a></p>
+                        </div>
+                        -->
+                    </div>
+                </div>
+
+                
+                <div class="col-md-7 company-info filter location">
+                    <h3><a href="about.html">Xps Cargo Services</a></h3>
+                    <p>Freight Forwarding agency</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Madurai,Tamil Nadu
+                    </p>
+                    <p>Ratings: 4.5<i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star-half" style="color:orange"></i></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="index.js" charset="utf-8" type="text/javascript"></script>
+
+</body>
+</html>

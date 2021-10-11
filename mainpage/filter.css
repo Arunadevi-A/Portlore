@@ -1,0 +1,202 @@
+body {
+    background-color: #E8F6EF;
+}
+
+header {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-top {
+    background-color: #FFE194;
+    position: fixed;
+    display: block;
+    top: 0;
+    width: 100%;
+}
+
+.nav-top div {
+    display: inline-block;
+}
+
+.brand {
+    position: absolute;
+    left: 5%;
+}
+
+.search {
+    padding: 1.5rem 0 1.75rem;
+    min-width: 50%;
+    min-height: 3rem;
+}
+
+.search input {
+    min-width: 65%;
+    min-height: 2.25rem;
+}
+
+.search button {
+    display:inline-block;
+    width: 9%;
+    height: 2.25rem;
+    border-radius: 0 20px 20px 0!important;
+    margin-top: 8px;
+    margin-right: 16px;
+}
+
+.user-field {
+    visibility: hidden;
+    padding: 1.5rem 0 1.75rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 5%;
+}
+
+.user-field a {
+    color: black;
+}
+.user-field a:hover {
+    text-decoration: none;
+}
+
+.user-field span {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.25rem;
+}
+
+.dropdown .dropdown-toggle {
+    background: none;
+}
+
+.dropdown-toggle:hover {
+    color: black;
+}
+
+.top-section {
+    position: relative;
+}
+
+/* Filter */
+
+.container {
+    text-align: left;
+    padding-left: 5rem;
+    padding-top: 71px;
+    position: absolute;
+    top: 48.797px;
+    left: 210px;
+    overflow: hidden;
+}
+
+.port-image {
+    width: 100%;
+}
+
+.company-info {
+    padding-top: -1rem;
+}
+.verified{
+    text-align: right;
+    color:green;
+    
+}
+.each-item {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 260px;
+}
+
+.each-item img {
+    width: 150%;
+    height: 70%;
+}
+
+.checked {
+  color: orange;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1 {
+    left: 0px;
+}
+
+.row {
+    margin-bottom: -1rem;
+}
+
+/*.cap1 {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0px;
+    left: -100%;
+    padding: 10px;
+    transition: all .5s;
+}
+.cap2 {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: #FFE194;
+    opacity: 0.6;
+    bottom: 0px;
+    left: 100%;
+    padding: 10px;
+    transition: all .5s;
+}
+.cap2 p {
+    margin: 14px 0;
+    font-size: 1.25rem;
+}
+.cap2 p a {
+    color: black;
+    font-weight: 600;
+    font-family: 'Baskerville Old Face';
+}
+.cap2 p a:hover {
+    text-decoration: none;
+}*/
+
+#sidebarMenu h2 {
+    text-align: center;
+    font-family: 'Merriwether';
+}
+
+@media (min-width: 991.98px) {
+    main {
+        padding-left: 240px;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 88.797px;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 300px;
+    z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+.sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+p {
+    font-family: 'Merriweather';
+}
+
+h2 {
+    font-family: 'Noto';
+}
